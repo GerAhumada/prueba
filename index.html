@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family:BankGothic Lt BT;
+     margin: 0;
+}
+
+/* Style the header */
+.header{
+  background-color: DodgerBlue;
+  color: white;
+  padding: 2px;
+  text-align: center;
+}
+</style>
+</head>
+    
+<div class="header">
+  <h1>RenovARQ Edificaciones S.A.S.</h1> 
+</div>   
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+ 
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: dodgerblue;
+  color: white;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+<body>
+</div>
+    <head>
+    <style>
+    body {
+      background-image: url("Fondo.jpg");
+    }
+    </style>
+    </head>
+  </div>   
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>DISEÑO, CONSTRUCCIÓN, REMODELACIÓN  Y MANTENIMIENTO INTEGRAL DE EDIFICACIONES</h2>
+      <h5>¡PARA VIVIR MEJOR!</h5>
+      <img src="Villa.jpg" width="950" height="240">
+      <p>Somos expertos en Rehabilitación Integral de Edificaciones</p>
+      <p>En edificios de conservación somos muy respetuosos con la estructura, materiales originales y  el estilo antiguo que los hace únicos, a la vez que podemos dotarlos  de las instalaciones técnicas y tecnologías modernas,  para preservar su uso y vigencia  en el tiempo.</p>
+    </div>
+    
+    <div class="card">
+      <h2>REPARACIÓN DE ESTRUCTURAS, FACHADAS Y ACABADOS</h2>
+      <h5>¡PARA VIVIR MEJOR!</h5>
+      <img src="portal1.jpg" width="950" height="534">
+      <p> Tenemos expercia en Patologia de la Edificación</p>
+      <p>Les ofrecemos servicios de consultoría técnica, construcción, rehabilitación integral, remodelación, mantenimiento y administración de todo tipo de edificaciones</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Quienes somos</h2>
+      <img src="Renovarq Edificaciones Logo1.jpg" width="180" height="140">
+      <p>Empresa legalmente constituida en Bogotá D.C. Colombia y prestamos soluciones al sector de la construcción y los servicios.</p>
+    </div>
+    <div class="card">
+      <h3>Trabajos Representativos</h3>
+      <h2>Diseño</h2>
+      <img src="Diseño.jpg" width="250" height="140">
+      <h2>Construcción</h2>
+      <img src="Construcción.jpg" width="250" height="140">
+      <h2>Rehabilitación</h2>
+      <img src="Rehabilitación.jpg" width="250" height="140">
+    </div>
+    <div class="card">
+      <h3>Siguenos</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Calle 68 69K 20 Bogotá D.C. Colombia ● celular 3104797508
+    Correos: renovarqedificaciones@gmail.com     ger.ahumada.sas@gmail.com. 
+    </h2>
+</div>
+
+</body>
+</html>
